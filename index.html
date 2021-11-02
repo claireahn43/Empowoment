@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Women in Sports</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<!-- Navigation Bar -->
+		<div id="nav">
+			<ul>
+                <img src="logo.png" alt="logo" width="50" height="50" style="float:left">
+                <div class="logoName">
+                    <h1 style="float:left; margin: 0; margin-top: 10px;">WISP</h1>
+                </div>
+                <li style="margin-top: 15px"><a href="login.html">Login</a></li>
+				<li style="margin-top: 15px"><a href="about.html">About</a></li>
+                <li style="margin-top: 15px"><a href="merch.html">Merch</a></li>
+                <li style="margin-top: 15px"><a href="donate.html">Donate</a></li>
+                <li style="margin-top: 15px"><a href="connect.html">Connect</a></li>
+                <li class="dropdown">
+                    <a href="sports.html" class="dropTab" style="margin-top: 15px">Sports</a>
+                    <div class="dropOptions">
+                        <a href="team.html">Basketball</a>
+                        <a href="team.html">Lacrosse</a>
+                        <a href="team.html">Soccer</a>
+                        <a href="team.html">Tennis</a>
+                        <a href="team.html">Swimming</a>
+                        <a href="team.html">Volleyball</a>
+                    </div>
+                </li>
+                <li style="margin-top: 15px"><a href="index.html">Home</a></li>
+			</ul>
+		</div>
+        <div class="titleBanner">
+            <div class="textCentered">
+                <h1 style="font-size: 50px">Women in Sports</h1>
+                <p style="font-size: 30px"><strong>Empowering women in the sports industry</strong></p>
+            </div>
+            <img src="sky1.jpg" alt="Clouds" width="100%" height="300" style="display: block">
+        </div>
+		<!-- Two column system -->
+		<div class="row">
+			<h2 style="text-align: center">Highlights</h2>
+			<!-- Highlight videos -->
+			<div class="column">
+                <div class="gallery">
+                    <div class="highlightTitle">
+                        <h3 style="text-align: center">A Man Eating a Sandwich 1</h3>
+                    </div>
+                    <div class="videos">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ynC6zY66LZc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="centerVideo">
+                        </iframe>
+                    </div>
+                    
+                    <div class="highlightTitle">
+                        <h3 style="text-align: center">A Man Eating a Sandwich 2</h3>
+                    </div>
+                    <div class="videos">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ekw4iqSVUpU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="centerVideo">
+                        </iframe>
+                    </div>
+                    
+                    
+                    <!-- Next and Previous Buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                </div>
+                <script src="videoSlideShow.js"></script>
+			</div>
+			<div class="border"></div>
+            
+			<!-- Featured Athlete -->
+			<div class="column">
+				<h3 style="text-align: center">Featured Athlete</h3>
+				<div class="card">
+                    <br>
+                    <h4 style="text-align: center">Jane Doe</h4>
+                    <img src="userProfile.png" alt="athlete" style="width: 25%; margin: 25px; float: left;">
+                    <h5>Sport: <normal style="font-weight: normal">Basketball</normal></h5> 
+                    <h5>Team: <normal style="font-weight: normal">Wispies</normal></h5>
+                    <h5>Position: <normal style="font-weight: normal">Point guard</normal></h5>
+                    <h5>Fun Fact: <normal style="font-weight: normal">She sleeps 16 hours a day when possible</normal></h5>
+                    <a href="user.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">
+                       <h5 style="margin-left: 213px">Link to Profile</h5>
+                    </a>
+                    <style>
+                        .card {
+                            box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+                            border-radius: 20px;
+                            transition: 0.3s;
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                            width: 500px;
+                            height: 300px;
+                        }
+                        .card:hover {
+                            box-shadow: 0 10px 20px 0 rgba(0,0,0,0.3);
+                        }
+                    </style>
+                </div>
+			</div>
+        </div>
+
+        <br>
+        <br>
+        <h2 style="text-align: center">Upcoming Games</h2>
+        <table class="eventTable" style="width: 100%">
+            <tr>
+                <th>Game</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Tickets</th>
+            </tr>
+            <tr>
+                <td>Wispies vs Sunnies</td>
+                <td>October 10</td>
+                <td>1pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+            <tr>
+                <td>Ballers vs Ladyz</td>
+                <td>October 11</td>
+                <td>3pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+            <tr>
+                <td>Flyers vs Stars</td>
+                <td>October 17</td>
+                <td>2pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+            <tr>
+                <td>Wispies vs Ballers</td>
+                <td>October 18</td>
+                <td>12pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+            <tr>
+                <td>Sunnies vs Stars</td>
+                <td>October 24</td>
+                <td>1pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+            <tr>
+                <td>Flyers vs Ladyz</td>
+                <td>October 25</td>
+                <td>12pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+            <tr>
+                <td>Wispies vs Stars</td>
+                <td>October 31</td>
+                <td>12pm EST</td>
+                <td><a href="" style="color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Buy Tickets</a></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <div class="titleBanner">
+                <div class="statementBanner">
+                    <h2 style="font-size: 30px; font-family: cursive; padding-top: 30px;">Our Vision</h2>
+                    <h3 style="font-size: 20px; font-family: cursive;">To empower women and girls in sports and provide a platform that would bring more visibility and opportunities to female athletes.</h3>
+                    <h2 style="font-size: 30px; font-family: cursive;">Our Mission</h2>
+                    <h3 style="font-size: 20px; font-family: cursive; padding-bottom: 30px;">To create a platform that connects female athletes and their fans to create a supportive community and network that can bring women’s sports into the mainstream.</h3>
+                </div>
+            <style>
+                .statementBanner {
+                    text-align: center;
+                    background-image: url("sky12.jpg");
+                }
+            </style>
+        </div>
+        <br>
+        <br>
+        <h1 style="text-align: center; font-family: sans-serif">Become a member today!</h1>
+        <h3 style="text-align: center"><a href="register.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'">Create an account</a></h3>
+        <br>
+        <br>
+        <!-- End card -->
+        <div id="endCard">
+            <div class="rowEnd">
+                <div class="columnEnd">
+                    <ul style="list-style-type: none">
+                        <li><strong>About</strong></li>
+                        <li><a href="about.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>About Us</h6></a></li>
+                        <li><a href="about.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Our Team</h6></a></li>
+                        <li><a href="about.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Our Mission</h6></a></li>
+                        <li><a href="about.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Our Vision</h6></a></li>
+                    </ul>
+                </div>
+                <div class="columnEnd">
+                    <ul style="list-style-type: none">
+                        <div class="rowSports">
+                            <li><strong>Sports Teams</strong></li>
+                            <div class="columnSports">
+                                <li><a href="team.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Basketball</h6></a></li>
+                                <li><a href="team.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Lacrosse</h6></a></li>
+                                <li><a href="team.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Soccer</h6></a></li>
+                                <li><a href="team.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Tennis</h6></a></li>
+                                <li><a href="team.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Swimming</h6></a></li>
+                                <li><a href="team.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Volleyball</h6></a></li>
+                            </div>
+                            <div class="columnSports">
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+                <div class="columnEnd">
+                    <ul style="list-style-type: none">
+                        <li><strong>Join WISP</strong></li>
+                        <li><a href="register.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Create An Account</h6></a></li>
+                        <li><a href="login.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Sign In</h6></a></li>
+                        <li><a><h6>Register Your Team</h6></a></li>
+                        <li><a href="donate.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Donate</h6></a></li>
+
+                    </ul>
+                </div>
+                <div class="columnEnd">
+                    <ul style="list-style-type: none">
+                        <li><strong>Contact</strong></li>
+                        <li><a href="about.html" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Contact Us</h6></a></li>
+                        <li><a href="" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Facebook</h6></a></li>
+                        <li><a href="" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Instagram</h6></a></li>
+                        <li><a href="" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>Twitter</h6></a></li>
+                        <li><a href="" style="text-decoration: none; color: black" onMouseOver="this.style.color='#5B5B5B'" onMouseOut="this.style.color='black'"><h6>LinkedIn</h6></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
